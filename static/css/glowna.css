@@ -1,0 +1,36 @@
+body
+{
+    background: url("tlo.jpg");
+}
+
+
+nav
+{
+    text-align: center;
+    background-color: #002a80;
+}
+.menu
+{
+    list-style-type: none;
+    background-color: #00b3ee;
+    padding: 10px;
+    font-size: 20px;
+    min-height: 40px;
+    line-height: 200%;
+}
+.menu >li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #1abc9c;
+
+}
+.menu >li:first-child
+{
+    border-left: 1px dashed #1abc9c ;
+}
+.menu a
+{
+    text-decoration: none;
+}
