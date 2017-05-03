@@ -1,36 +1,74 @@
 body
 {
-    background: url("tlo.jpg");
+    background-color: white;
 }
-
 
 nav
 {
     text-align: center;
-    background-color: #002a80;
+    background-color: white;
 }
+
 .menu
 {
     list-style-type: none;
-    background-color: #00b3ee;
+    background-color: white;
     padding: 10px;
     font-size: 20px;
     min-height: 40px;
     line-height: 200%;
+    position: relative;
+}
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .menu >li
 {
-    display: inline-block;
+    display: inline-block; <!--rozlozenie_poziomo -->
     padding-left: 20px;
     padding-right: 20px;
     border-right: 1px dashed #1abc9c;
 
+
 }
 .menu >li:first-child
 {
-    border-left: 1px dashed #1abc9c ;
+    justify-content: space-between;
 }
 .menu a
 {
     text-decoration: none;
+    color: orange;
+}
+.menu:hover
+{
+    text-decoration: white;
+}
+.opis
+{
+    width: 1340px;
+    height: 800px;
+    background: url("serce.jpg");
+}
+
+.przerwa
+{
+    width: 1340px;
+    height: 400px;
+}
+
+.rzad h1
+{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white ;
+}
+.rzad h2
+{
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
